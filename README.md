@@ -5,9 +5,9 @@ For the evaluation of our proposed MMMU approach, we employ two multi-modal benc
 
 First download the dataset from given link and set the path in the code accordingly and make two folder (i) results and (ii) weights.
 
-# how to run file:
+* how to run file:
 
-# For MOSEI dataset:
+* For MOSEI dataset:
 for trimodal-->>  python trimodal_MOSEI.py  
 
 # For MOSI dataset:
