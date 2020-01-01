@@ -11,10 +11,10 @@ For the evaluation of our proposed MMMU approach, we employ two multi-modal benc
 
 -------------------------------------------------------
 ### For MOSEI Dataset:
-for trimodal-->>  python trimodal_MOSEI.py  
+For trimodal-->>  python trimodal_MOSEI.py  
 
 ### For MOSI Dataset:
-for trimodal-->>  python trimodal_MOSI.py  
+For trimodal-->>  python trimodal_MOSI.py  
 
 -------------------------------------------------------
 
