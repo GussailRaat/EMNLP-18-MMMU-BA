@@ -5,7 +5,7 @@ For the evaluation of our proposed MMMU approach, we employ two multi-modal benc
 
 ### Dataset
 
-* You can download datasets from this link (https://drive.google.com/open?id=1IaErV0XIf8-F23wdOgjMaACYAELxneya).
+* You can download datasets from [here](https://drive.google.com/open?id=1IaErV0XIf8-F23wdOgjMaACYAELxneya).
 
 * Download the dataset from given link and set the path in the code accordingly make two folder (i) results and (ii) weights.
 
