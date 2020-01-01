@@ -153,7 +153,7 @@ def featuresExtraction():
         test_mask[i,:test_length[i]]=1.0
 
 
-def multimodal_cross_attention(attn_type, highway, recurrent, timedistributed):
+def multimodal_cross_attention(attn_type, recurrent, timedistributed):
 
     featuresExtraction()
     # run each model 2 times with different seeds and find best result among these runs
@@ -253,8 +253,8 @@ def multimodal_cross_attention(attn_type, highway, recurrent, timedistributed):
 
 if __name__=="__main__":
 
-    multimodal_cross_attention(attn_type='mmmu', highway=False, recurrent=True, timedistributed=True)
-    multimodal_cross_attention(attn_type='musa', highway=False, recurrent=True, timedistributed=True)
-    multimodal_cross_attention(attn_type='mmuu', highway=False, recurrent=True, timedistributed=True)
-    multimodal_cross_attention(attn_type='None', highway=False, recurrent=True, timedistributed=True)
+    multimodal_cross_attention(attn_type='mmmu', recurrent=True, timedistributed=True)
+    multimodal_cross_attention(attn_type='musa', recurrent=True, timedistributed=True)
+    multimodal_cross_attention(attn_type='mmuu', recurrent=True, timedistributed=True)
+    multimodal_cross_attention(attn_type='None', recurrent=True, timedistributed=True)
 
