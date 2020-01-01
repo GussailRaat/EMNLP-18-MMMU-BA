@@ -241,8 +241,7 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
 
     ###################### write results #######################
 
-    '''open('results/dushyant/tri_result.txt', 'a').write('Highway: ' + str(highway) +
-                                      ', Recurrent: ' + str(recurrent) +
+    '''open('results/dushyant/tri_result.txt', 'a').write('Recurrent: ' + str(recurrent) +
                                       ', TimeDistributed: ' + str(timedistributed) +
                                       ', Attention type: ' + str(attn_type) +
                                       ', Best Accuracy: ' + str(best_accuracy) + '\n'*2 )'''
