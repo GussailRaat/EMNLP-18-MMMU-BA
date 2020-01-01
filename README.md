@@ -7,7 +7,7 @@ First download the dataset from given link and set the path in the code accordin
 
 * how to run file:
 
-* For MOSEI dataset:
+## For MOSEI dataset:
 for trimodal-->>  python trimodal_MOSEI.py  
 
 # For MOSI dataset:
