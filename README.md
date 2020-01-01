@@ -1,5 +1,5 @@
 ## Contextual Inter-modal Attention for Multi-modal Sentiment Analysis
-Contextual inter-modal attention for multi-modal sentiment analysis (https://www.aclweb.org/anthology/D18-1382/)
+Code for the paper [Contextual inter-modal attention for multi-modal sentiment analysis](https://www.aclweb.org/anthology/D18-1382/)(EMNLP 2018)
 
 For the evaluation of our proposed MMMU approach, we employ two multi-modal benchmark datasets i.e, MOSEI and MOSI. 
 
