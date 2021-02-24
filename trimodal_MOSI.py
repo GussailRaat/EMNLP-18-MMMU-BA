@@ -283,7 +283,7 @@ def train(mode):
                             shuffle=True, 
                             callbacks=[early_stop, check],
                             # validation_data=([dev_text, dev_audio, dev_video], dev_label, dev_mask),
-                            validation_data=([test_text, test_audio, test_video], test_label, test_mask),
+                            validation_data=([valid_text, valid_audio, valid_video], valid_label, valid_mask),
                             verbose=1)
                     
             
