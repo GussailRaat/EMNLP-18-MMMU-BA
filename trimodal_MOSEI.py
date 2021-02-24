@@ -219,7 +219,7 @@ def multimodal_cross_attention(attn_type, recurrent, timedistributed):
                             sample_weight=train_mask,
                             shuffle=True,
                             callbacks=[check1, check2],
-                            validation_data=([test_text, test_audio, test_video], test_label, test_mask),
+                            validation_data=([valid_text, valid_audio, valid_video], valid_label, valid_mask),
                             verbose=1)
 
         acc = max(history.history['val_acc'])
